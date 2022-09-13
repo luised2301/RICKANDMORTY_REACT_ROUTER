@@ -1,0 +1,18 @@
+.genericCard {
+  background-color: #3c3e44;
+  display: flex;
+  border-radius: 20px;
+  border-style: solid 3px white;
+  margin: 2rem;
+}
+
+#infoContainer {
+  display: flex;
+  box-sizing: content-box;
+  height: 250px;
+}
+
+.pictureContainer {
+  display: flex;
+  height: 250px;
+}
