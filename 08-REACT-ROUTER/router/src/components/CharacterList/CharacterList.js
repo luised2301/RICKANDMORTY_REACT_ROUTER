@@ -38,6 +38,7 @@ const CharacterList = () => {
           species={character.species}
           lastseen={character.location.name}
           firstseen={character.origin.name}
+          id={character.id}
         />
       ))}
     </div>

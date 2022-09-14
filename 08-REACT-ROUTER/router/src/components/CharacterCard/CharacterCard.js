@@ -10,6 +10,7 @@ const CharacterCard = (character) => {
   const characterSpecies = character.species;
   const characterLastKnownLocation = character.lastseen;
   const characterFirstSeenIn = character.firstseen;
+  const characterId = character.id;
   return (
     <div className={styles.characterCard}>
       <div className="pictureContainer">
@@ -20,6 +21,7 @@ const CharacterCard = (character) => {
           name={characterName}
           status={characterStatus}
           species={characterSpecies}
+          id={characterId}
         />
         <CardInfo
           title="last known location:"
